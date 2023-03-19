@@ -11,13 +11,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 //        val component=DaggerGoogleComponent.create()
-        val chrome=Constants.component.getChrome()
-        chrome.chromebrowser()
+//        val chrome=Constants.component.getChrome()
+//        chrome.chromebrowser()
 
 //        val firebase=Constants.component.firebase
 //        firebase.realtimeDatabase()
 
 //        val youtube=Constants.component.getYoutube()
 //        youtube.videoplaying()
+        val google=Google()
     }
 }
